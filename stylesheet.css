@@ -1,0 +1,38 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.navigation {
+  text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: green;
+}
+
+
+.introduction {
+    text-indent: 80px;
+    background-color: #eaece5;
+}
+
+.first_point {
+    text-align: center;
+}
+
+
+.second_point {
+    text-align: center;
+}
+
+.third_point {
+    text-align: center;
+}
