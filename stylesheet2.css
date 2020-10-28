@@ -1,0 +1,38 @@
+.navigation {
+  text-align: left;
+  text-indent: 80px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #65737e;
+}
+
+.page_header {
+    color: #343d46;
+}
+
+.paragraph_one {
+    color: #343d46;
+}
+
+.paragraph_two {
+    color: #343d46;
+}
+
+.about_me_2 {
+    max-width: auto;
+    height: auto;
+}
+
+.resume {
+    color: #343d46;
+}
+
+.footer {
+    color: #65737e;
+}
