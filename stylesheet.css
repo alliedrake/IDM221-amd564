@@ -1,12 +1,13 @@
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  text-align: left;
+  left: 80px;
+  width: 100px;
+
 }
 
 .navigation {
-  text-align: center;
+  text-align: left;
+  text-indent: 80px;
 }
 
 a {
@@ -15,24 +16,58 @@ a {
 }
 
 a:link, a:visited {
-    color: green;
+    color: #65737e;
 }
 
 
 .introduction {
-    text-indent: 80px;
-    background-color: #eaece5;
+    text-align: left;
+    color: #343d46;
+}
+
+.first_header {
+    text-indent: 100px;
 }
 
 .first_point {
-    text-align: center;
+    text-align: left;
+    color: #343d46;
 }
 
+.first_image {
+    text-indent: 90px;
+}
+
+.second_header {
+    text-indent: 100px;
+}
 
 .second_point {
-    text-align: center;
+    text-align: left;
+    color: #343d46;
+}
+
+.second_image {
+    text-indent: 90px;
+}
+
+.third_header {
+    text-indent: 100px;
 }
 
 .third_point {
-    text-align: center;
+    text-align: left;
+    color: #343d46;
+}
+
+.third_image {
+    text-indent: 83px;
+}
+
+.header_social {
+    color: #343d46;
+}
+
+.footer {
+    text-indent: 85px;
 }
