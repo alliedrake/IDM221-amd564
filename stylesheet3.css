@@ -1,0 +1,21 @@
+.navigation {
+    text-align: left;
+    text-indent: 80px;
+  }
+  
+  a {
+      color: black;
+      text-decoration: none;
+  }
+  
+  a:link, a:visited {
+      color: #65737e;
+  }
+
+  .page_header, .casestudy, .philm, .designwork, .photography {
+      color: #343d46;
+  }
+
+  p {
+      color: #65737e;
+  }
