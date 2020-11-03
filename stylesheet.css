@@ -1,8 +1,19 @@
 @font-face {
-    font-family: 'Lora-Regular';
-    src: url('./fonts/Lora-Regular.woff2') format('woff2');
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('./fonts/PlayfairDisplay-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('./fonts/Roboto-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 }
 
 html {
@@ -10,8 +21,16 @@ html {
 }
 
 body {
-    font-family: 'Lora-Regular', -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', 
+    font-family: 'PlayfairDisplay-Regular' 'Roboto-Light', -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', 
     sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'PlayfairDisplay-Regular';
+}
+
+p, li, nav {
+    font-family: 'Roboto-Light';
 }
 
 .center {
