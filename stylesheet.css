@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Lora-Regular';
+    src: url('./fonts/Lora-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Lora-Regular', -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+}
+
 .center {
   text-align: left;
   left: 80px;
