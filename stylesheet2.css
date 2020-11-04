@@ -30,11 +30,15 @@ p, li, nav {
     font-family: 'Roboto-Light';
 }
 
-
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .navigation {
-  text-align: left;
-  text-indent: 80px;
+  text-align: center;
 }
 
 a {
@@ -54,13 +58,24 @@ a:link, a:visited {
     color: #343d46;
 }
 
+.about_me_1 {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .paragraph_two {
     color: #343d46;
 }
 
 .about_me_2 {
-    max-width: auto;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .resume {
@@ -69,4 +84,6 @@ a:link, a:visited {
 
 .footer {
     color: #65737e;
+    text-align: center;
+    font-size: .75em;
 }
