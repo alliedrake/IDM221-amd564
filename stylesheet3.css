@@ -13,10 +13,15 @@
 }
 
 
-}
-
 html {
     font-size: 100%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 body {
@@ -34,8 +39,7 @@ p, li, nav {
 
 
 .navigation {
-    text-align: left;
-    text-indent: 80px;
+    text-align: center;
   }
   
   a {
@@ -53,4 +57,16 @@ p, li, nav {
 
   p {
       color: #65737e;
+  }
+
+  .placeholder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .footer {
+      text-align: center;
+      font-size: .75em;
   }
