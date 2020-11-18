@@ -175,11 +175,38 @@ a:link, a:visited {
 /* About Page */
 
 .page_header2 {
-    color: #343d46;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.about-intro {
+    width: 100%;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    font-size: 3rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.aboutmecircle {
+    width: 50%;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    
 }
 
 .paragraph_one {
     color: #343d46;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    margin: 1.5rem;
+    padding-top: 15rem;
+
 }
 
 .about_me_1 {
@@ -192,7 +219,12 @@ a:link, a:visited {
 
 .paragraph_two {
     color: #343d46;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    margin: 1.5rem;
+
 }
+
 
 .about_me_2 {
     height: auto;
