@@ -32,7 +32,7 @@ h1, h2, h3 {
     font-family: 'PlayfairDisplay-Bold';
 }
 
-p , .footer {
+p , li, .footer {
     font-family: 'Roboto-Light';
 }
 
@@ -44,13 +44,19 @@ ul {
 
 .logo {
     float: left;
-    width: 30%;
+    width: 25%;
+  }
+
+  .navigation {
+      height: 5rem;
   }
 
 .navigation li {
     font-family: 'PlayfairDisplay-Bold';
     display: inline-block;
-    padding: 40px;
+    margin-left: 1.3rem;
+    margin-top: 2rem;
+    padding: 30px;
     font-size: 2.3rem;
 }
 
@@ -174,18 +180,20 @@ a:link, a:visited {
 
 /* About Page */
 
+
 .page_header2 {
     position: relative;
     text-align: center;
     color: white;
+    display: block;
 }
 
 .about-intro {
     width: 100%;
     position: absolute;
-    top: 37%;
+    top: 39%;
     left: 50%;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     transform: translate(-50%, -50%);
 }
@@ -205,24 +213,36 @@ a:link, a:visited {
     font-size: 2rem;
     line-height: 4.5rem;
     margin: 1.5rem;
-    padding-top: 15rem;
+    padding-top: 12rem;
+    padding-bottom: 1rem;
 
 }
 
-.about_me_1 {
-    height: auto;
+.about_me {
+    padding-top: 1rem;
     display: block;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    bottom: -19.2%;
+    left: 24.7%;
+
 }
 
+.box {
+    background-color: black;
+    height: 500px;
+}
+
+
 .paragraph_two {
+    padding-top: 4rem;
     color: #343d46;
     font-size: 2rem;
     line-height: 4.5rem;
     margin: 1.5rem;
-
+    
 }
 
 
@@ -236,24 +256,72 @@ a:link, a:visited {
 
 .resume {
     color: #343d46;
+    font-size: 2rem;
+    margin: 1.5rem;
+}
+
+.resume h2 {
+    text-align: center;
+}
+
+#divider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* My Work Page */
 
-.page_header3, .philm, .designwork, .photography {
-    color: #343d46;
+
+.page_header4 {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
 }
 
-.pageheader4 p {
-    color: #65737e;
+.work_intro {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 2.5rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
 
-.placeholder {
+.blackbox {
+    height: 300px;
+}
+
+.work_content h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+    
+
+.philmmockupp , .pressrepublicanmockup {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 4rem;
   width: 50%;
 }
+
+.philm_link , .pr_link {
+    text-decoration: underline;
+}
+
+.philmcaption , .prcaption {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    padding-top: 1.5rem;
+}
+
+
+
 
 
 /* Press Republican Page */
@@ -290,6 +358,9 @@ a:link, a:visited {
 }
 
 .footer {
+    background-color: black;
+    color: white;
     font-size: .75em;
+    padding: 2rem;
     text-align: center;
 }
