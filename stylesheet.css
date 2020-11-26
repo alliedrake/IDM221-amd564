@@ -326,6 +326,10 @@ a:link, a:visited {
 
 /* Press Republican Page */
 
+.prmockup {
+    margin-top: 5rem;
+}
+
 .prcontent {
     width: 365px;
 }
