@@ -238,8 +238,7 @@ a:link, a:visited {
 }
 
 .box {
-    background-color: black;
-    height: 500px;
+    height: 550px;
 }
 
 
@@ -343,7 +342,7 @@ a:link, a:visited {
     font-size: 4rem;
     color: white;
     position: absolute;
-    top: 13.6%;
+    top: 15%;
     left: 17%;
 }
 
@@ -359,9 +358,8 @@ a:link, a:visited {
 .pr_content h1 {
     font-size: 3rem;
     text-align: center;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
 }
-
 
 .space {
     height: 15rem;
@@ -383,29 +381,49 @@ a:link, a:visited {
     padding-bottom: 4rem;
 }
 
-.prfinished {
-    height: 788px;
-    width: 380px; 
-}
-
-.prevaluation {
-    height: 416px;
-    width: 365px;
-}
-
-.prradar {
-    width: 365px;
-}
 
 /* Philm */
 
-.philm_content p {
-    width: 365px;
+.philm_intro {
+    background-image:linear-gradient(black, white);
+    margin-top: 4.4rem;
+    height: 39.6875rem;
 }
 
-.philm_content img  {
-    width: 365px;
+.philmmockup {
+    width: 55%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12rem;
+}
 
+.space2 {
+    height: 20rem;
+}
+
+.philm_content h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+
+.philm_content img  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.philm_content p {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 .footer {
