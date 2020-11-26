@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url('./fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Roboto-Light';
     src: url('./fonts/Roboto-Light.woff2') format('woff2');
     font-weight: normal;
@@ -326,14 +333,55 @@ a:link, a:visited {
 
 /* Press Republican Page */
 
+.pr_intro {
+    background-image:linear-gradient(black, white);
+    margin-top: 6.9rem;
+    height: 39.6875rem;
+}
+
+.pr_intro h1 {
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 13.6%;
+    left: 17%;
+}
+
 .prmockup {
-    margin-top: 5rem;
-}
-
-.prcontent {
     width: 365px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20rem;
 }
 
+.pr_content h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+
+.space {
+    height: 15rem;
+}
+
+.pr_content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.pr_content p {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
 
 .prfinished {
     height: 788px;
@@ -346,7 +394,6 @@ a:link, a:visited {
 }
 
 .prradar {
-    height: 154px;
     width: 365px;
 }
 
