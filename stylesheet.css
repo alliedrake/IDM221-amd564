@@ -55,16 +55,16 @@ ul {
   }
 
   .navigation {
-      height: 5rem;
+      height: 5rem;  
   }
 
 .navigation li {
-    font-family: 'PlayfairDisplay-Bold';
     display: inline-block;
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 2.3rem;
     margin-left: 1.3rem;
     margin-top: 2rem;
     padding: 30px;
-    font-size: 2.3rem;
 }
 
 a {
@@ -76,73 +76,80 @@ a:link, a:visited {
     color:darkgrey;
 }
 
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
 /* Home Page */
 
 .introduction {
+    color:white;
     position: relative;
     text-align: center;
-    color:white;
 }
 
 .first-line {
-    width: 80%;
+    font-size: 3rem;
+    left: 50%;
     position: absolute;
     top: 37%;
-    left: 50%;
-    font-size: 3rem;
     text-align: left;
     transform: translate(-50%, -50%);
-
+    width: 80%;
 }
 
+
 .second-line {
-    width: 80%;
+    font-size: 2rem;
+    left: 50%;
     position: absolute;
     top: 57%;
-    left: 50%;
-    font-size: 2rem;
     text-align: left;
     transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 
 .first_header, .second_header , .third_header {
+    font-size: 3rem;
     padding-left: 1.2rem;
     text-align: left;
-    font-size: 3rem;
 }
 
 .first_point , .second_point , .third_point {
+    color: #343d46;
     font-family: 'Roboto-Light';
-    padding-left: 1.2rem;
+    font-size: 2rem;
     line-height: 4.5rem;
     margin: 1rem;
+    padding-left: 1.2rem;
     text-align: left;
-    color: #343d46;
-    font-size: 2rem;
 }
 
 .first_line , .second_line {
-    text-align: center;
     padding-top: 1rem;
+    text-align: center;
 }
 
-
 .header_social {
-    position: relative;
-    text-align: center;
     color:white;
     padding-top: 2.5rem;
+    position: relative;
+    text-align: center;
 }
 
 .connect-with-me {
-    width: 100%;
-    position: absolute;
-    top: 30%;
-    left: 50%;
     font-size: 3rem;
+    left: 50%;
+    position: absolute;
     text-align: center;
+    top: 30%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .linked-in , .facebook, .discord {
@@ -150,69 +157,59 @@ a:link, a:visited {
 }
 
 .linked-in {
-    width: 100%;
-    position: absolute;
-    top: 45%;
-    left: 50%;
     font-size: 3rem;
+    left: 50%;
+    position: absolute;
     text-align: center;
+    top: 45%;
     transform: translate(-50%, -50%);
 }
 
 .facebook {
-    width: 100%;
-    position: absolute;
-    top: 55%;
-    left: 50%;
     font-size: 3rem;
+    left: 50%;
+    position: absolute;
     text-align: center;
+    top: 55%;
     transform: translate(-50%, -50%);
 }
 
 .discord {
-    width: 100%;
-    position: absolute;
-    top: 65%;
-    left: 50%;
     font-size: 3rem;
+    left: 50%;
+    position: absolute;
     text-align: center;
+    top: 65%;
     transform: translate(-50%, -50%);
 }
-
-.footer p {
-    font-size: 2rem;
-}
-
 
 
 /* About Page */
 
 
 .page_header2 {
-    position: relative;
-    text-align: center;
     color: white;
     display: block;
+    position: relative;
+    text-align: center;
 }
 
 .about-intro {
-    width: 100%;
-    position: absolute;
-    top: 39%;
-    left: 50%;
     font-size: 2.5rem;
+    left: 50%;
+    position: absolute;
     text-align: center;
+    top: 39%;
     transform: translate(-50%, -50%);
 }
 
 .aboutmecircle {
-    width: 50%;
-    position: absolute;
-    top: 95%;
     left: 50%;
+    position: absolute;
     text-align: center;
-    transform: translate(-50%, -50%);
-    
+    top: 95%;
+    transform: translate(-50%, -50%); 
+    width: 50%; 
 }
 
 .paragraph_one {
@@ -221,43 +218,25 @@ a:link, a:visited {
     line-height: 4.5rem;
     margin: 1.5rem;
     padding-top: 12rem;
-    padding-bottom: 1rem;
 
 }
 
 .about_me {
-    padding-top: 1rem;
+    box-shadow: 5px 5px 5px grey;
     display: block;
-    position: absolute;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1rem;
     width: 50%;
-    bottom: -19.2%;
-    left: 24.7%;
-
 }
-
-.box {
-    height: 550px;
-}
-
 
 .paragraph_two {
-    padding-top: 4rem;
     color: #343d46;
     font-size: 2rem;
     line-height: 4.5rem;
     margin: 1.5rem;
+    padding-top: 4rem;
     
-}
-
-
-.about_me_2 {
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .resume {
@@ -280,19 +259,18 @@ a:link, a:visited {
 
 
 .page_header4 {
-    position: relative;
-    text-align: center;
     color: white;
     display: block;
+    position: relative;
+    text-align: center;
 }
 
 .work_intro {
-    width: 100%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
     font-size: 2.5rem;
+    left: 50%;
+    position: absolute;
     text-align: center;
+    top: 60%;
     transform: translate(-50%, -50%);
 }
 
@@ -328,42 +306,33 @@ a:link, a:visited {
 
 
 
-
-
 /* Press Republican Page */
 
 .pr_intro {
     background-image:linear-gradient(black, white);
-    margin-top: 6.9rem;
     height: 39.6875rem;
+    margin-top: 6.9rem;
 }
 
-.pr_intro h1 {
-    font-size: 4rem;
-    color: white;
-    position: absolute;
-    top: 15%;
-    left: 17%;
-}
 
 .prmockup {
-    width: 365px;
-    height: auto;
     display: block;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20rem;
+    padding-top: 13rem;
+}
+
+.space {
+    height: 9rem;
 }
 
 .pr_content h1 {
     font-size: 3rem;
-    text-align: center;
     padding-bottom: 6rem;
+    text-align: center;
 }
 
-.space {
-    height: 15rem;
-}
 
 .pr_content img {
     display: block;
@@ -386,17 +355,17 @@ a:link, a:visited {
 
 .philm_intro {
     background-image:linear-gradient(black, white);
-    margin-top: 4.4rem;
     height: 39.6875rem;
+    margin-top: 4.4rem;
 }
 
 .philmmockup {
-    width: 55%;
-    height: auto;
     display: block;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 12rem;
+    padding-top: 13rem;
+    width: 50%;
 }
 
 .space2 {
@@ -405,8 +374,8 @@ a:link, a:visited {
 
 .philm_content h1 {
     font-size: 3rem;
+    padding-bottom: 3rem;
     text-align: center;
-    padding-bottom: 6rem;
 }
 
 
@@ -424,12 +393,4 @@ a:link, a:visited {
     margin-right: 3rem;
     padding-top: 2rem;
     padding-bottom: 4rem;
-}
-
-.footer {
-    background-color: black;
-    color: white;
-    font-size: .75em;
-    padding: 2rem;
-    text-align: center;
 }
