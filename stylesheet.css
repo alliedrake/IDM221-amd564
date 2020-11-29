@@ -44,27 +44,27 @@ p , li, .footer {
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 .logo {
     float: left;
-    width: 25%;
+    width: 27%;
   }
 
   .navigation {
-      height: 5rem;  
+      height: 2.8rem;  
   }
 
 .navigation li {
     display: inline-block;
     font-family: 'PlayfairDisplay-Bold';
-    font-size: 2.3rem;
-    margin-left: 1.3rem;
+    font-size: 1rem;
     margin-top: 2rem;
-    padding: 30px;
+    margin-left: 1rem;
+    padding-left: .5rem;
 }
 
 a {
@@ -79,8 +79,8 @@ a:link, a:visited {
 .footer {
     background-color: black;
     color: white;
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -92,8 +92,9 @@ a:link, a:visited {
     text-align: center;
 }
 
+
 .first-line {
-    font-size: 3rem;
+    font-size: 1.5rem;
     left: 50%;
     position: absolute;
     top: 37%;
@@ -104,7 +105,7 @@ a:link, a:visited {
 
 
 .second-line {
-    font-size: 2rem;
+    font-size: .80rem;
     left: 50%;
     position: absolute;
     top: 57%;
@@ -115,16 +116,15 @@ a:link, a:visited {
 
 
 .first_header, .second_header , .third_header {
-    font-size: 3rem;
-    padding-left: 1.2rem;
+    font-size: 1.5rem;
     text-align: left;
 }
 
 .first_point , .second_point , .third_point {
     color: #343d46;
     font-family: 'Roboto-Light';
-    font-size: 2rem;
-    line-height: 4.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
     margin: 1rem;
     padding-left: 1.2rem;
     text-align: left;
@@ -143,11 +143,11 @@ a:link, a:visited {
 }
 
 .connect-with-me {
-    font-size: 3rem;
+    font-size: 1.8rem;
     left: 50%;
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 36%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
@@ -157,29 +157,29 @@ a:link, a:visited {
 }
 
 .linked-in {
-    font-size: 3rem;
+    font-size: 1.5rem;
     left: 50%;
     position: absolute;
     text-align: center;
-    top: 45%;
+    top: 52%;
     transform: translate(-50%, -50%);
 }
 
 .facebook {
-    font-size: 3rem;
+    font-size: 1.5rem;
     left: 50%;
     position: absolute;
     text-align: center;
-    top: 55%;
+    top: 61%;
     transform: translate(-50%, -50%);
 }
 
 .discord {
-    font-size: 3rem;
+    font-size: 1.5rem;
     left: 50%;
     position: absolute;
     text-align: center;
-    top: 65%;
+    top: 71%;
     transform: translate(-50%, -50%);
 }
 
@@ -194,13 +194,15 @@ a:link, a:visited {
     text-align: center;
 }
 
+
 .about-intro {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     left: 50%;
     position: absolute;
     text-align: center;
-    top: 39%;
+    top: 37%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .aboutmecircle {
@@ -212,12 +214,13 @@ a:link, a:visited {
     width: 50%; 
 }
 
+
 .paragraph_one {
     color: #343d46;
-    font-size: 2rem;
-    line-height: 4.5rem;
+    font-size: .9rem;
+    line-height: 2rem;
     margin: 1.5rem;
-    padding-top: 12rem;
+    padding-top: 5rem;
 
 }
 
@@ -227,13 +230,12 @@ a:link, a:visited {
     margin-left: auto;
     margin-right: auto;
     padding-top: 1rem;
-    width: 50%;
 }
 
 .paragraph_two {
     color: #343d46;
-    font-size: 2rem;
-    line-height: 4.5rem;
+    font-size: .9rem;
+    line-height: 2rem;
     margin: 1.5rem;
     padding-top: 4rem;
     
@@ -241,11 +243,13 @@ a:link, a:visited {
 
 .resume {
     color: #343d46;
-    font-size: 2rem;
-    margin: 1.5rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    margin: 1.4rem;
 }
 
 .resume h2 {
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -266,20 +270,20 @@ a:link, a:visited {
 }
 
 .work_intro {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     left: 50%;
     position: absolute;
     text-align: center;
-    top: 60%;
+    top: 55%;
     transform: translate(-50%, -50%);
 }
 
 .blackbox {
-    height: 300px;
+    height: 7rem;
 }
 
 .work_content h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
 }
     
@@ -288,7 +292,7 @@ a:link, a:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 4rem;
+  padding-top: 2rem;
   width: 50%;
 }
 
@@ -297,11 +301,11 @@ a:link, a:visited {
 }
 
 .philmcaption , .prcaption {
-    font-size: 2rem;
-    line-height: 4rem;
-    margin-left: 4rem;
+    font-size: .9rem;
+    line-height: 2rem;
+    margin-left: 3.5rem;
     margin-right: 3rem;
-    padding-top: 1.5rem;
+    padding-top: 0.2rem;
 }
 
 
@@ -310,8 +314,8 @@ a:link, a:visited {
 
 .pr_intro {
     background-image:linear-gradient(black, white);
-    height: 39.6875rem;
-    margin-top: 6.9rem;
+    height: 20rem;
+    margin-top: 2.5rem;
 }
 
 
@@ -320,16 +324,17 @@ a:link, a:visited {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 13rem;
+    padding-top: 7.5rem;
+    width: 60%;
 }
 
 .space {
-    height: 9rem;
+    height: 3.2rem;
 }
 
 .pr_content h1 {
-    font-size: 3rem;
-    padding-bottom: 6rem;
+    font-size: 1.3rem;
+    padding-bottom: 4rem;
     text-align: center;
 }
 
@@ -342,12 +347,12 @@ a:link, a:visited {
 }
 
 .pr_content p {
-    font-size: 2rem;
-    line-height: 4rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    font-size: .95rem;
+    line-height: 2rem;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
     padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -355,8 +360,8 @@ a:link, a:visited {
 
 .philm_intro {
     background-image:linear-gradient(black, white);
-    height: 39.6875rem;
-    margin-top: 4.4rem;
+    height: 20rem;
+    margin-top: .1rem;
 }
 
 .philmmockup {
@@ -364,20 +369,19 @@ a:link, a:visited {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 13rem;
-    width: 50%;
+    padding-top: 6.5rem;
+    width: 55%;
 }
 
 .space2 {
-    height: 20rem;
+    height:6.5rem;
 }
 
 .philm_content h1 {
-    font-size: 3rem;
-    padding-bottom: 3rem;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
-
 
 .philm_content img  {
     display: block;
@@ -387,10 +391,10 @@ a:link, a:visited {
 }
 
 .philm_content p {
-    font-size: 2rem;
-    line-height: 4rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    font-size: .9rem;
+    line-height: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
