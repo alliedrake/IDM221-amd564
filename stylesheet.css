@@ -251,20 +251,9 @@ a:link, a:visited {
     font-size: .9rem;
     line-height: 1.5rem;
     margin: 1.4rem;
+    padding-top: 4rem;
 }
 
-.resume h2 {
-    font-size: 1.7rem;
-    padding-top: 3rem;
-    text-align: center;
-}
-
-#divider {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 3rem;
-}
 
 /* My Work Page */
 
