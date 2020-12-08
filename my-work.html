@@ -6,31 +6,43 @@
         <link rel="stylesheet" href="stylesheet.css">
         <title>My Work</title>
     </head>
-<!--Logo-->
+
 <body>
-   <nav>
-        <img src="Images/logo.jpg" alt="page logo" class="logo">
-        <div class="navigation">
-        <ul>
-            <li style="font-size: 3vw;"><a href=home.html class="active">Home</a></li>
-            <li style="font-size: 3vw;"><a href=about-me.html class="about_link">About Me</a></li>
-            <li style="font-size: 3vw;"><a href=resume.html class="resume_link">Resume</a></li>
-            <li style="font-size: 3vw;"><a href=my-work.html class="work_link">My Work</a><li>
-        </ul>
-        </div>
+  
+    <a href="home.html"><img alt="logo" class="logo" src="images/logo.png"></a>
+
+    <nav role="navigation">
+        <div id="menuToggle">
+
+        <input type="checkbox"/>
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    <ul id="menu">
+        <li><a href=home.html>Home</a></li>
+        <li><a href=about-me.html>About Me</a></li>
+        <li><a href=resume.html>Resume</a></li>
+        <li><a href=my-work.html>My Work</a></li>
+    </ul>
+    </div> 
     </nav>
 
 <!--Main Content-->
 <header>
          <div class="page_header4">
-            <div class="work_intro"><h2>My Work</h2></div>
+  
+    <img src="images/line2.png" alt="header line" style=width:100%>
+        <div class="work_intro"><h2>My Work</h2></div>
+    <img src="images/line2.png" alt="header line" style=width:100%>
         </div>
 
  </header>
  <div class="work_content">
         <br>
         <br>
-        <img src="Images/philm/philm.png" alt="philm mockup" class="philmmockupp1">
+        <img src="images/philm/philm.png" alt="philm mockup" class="philmmockupp1">
         <br>
         <h2><a href=philm-page.html class="philm_link">Philm: App Redesign</a></h2>
         <div class="philmcaption">
@@ -38,10 +50,10 @@
         programs like Sketch and AfterEffects.</p>
         </div>
         <br>
-        <div class="first_line"><img src="Images/line.png" alt="page divider" style=width:40%></div>
+        <div class="first_line"><img src="images/line.png" alt="page divider" style=width:40%></div>
         <br>
         <br>
-        <img src="Images/pr/PressRepublicanMockupp.png" alt="press republican mockup" class="pressrepublicanmockup1">
+        <img src="images/pr/pressrepublicanmockupp.png" alt="press republican mockup" class="pressrepublicanmockup1">
         <br>
         <br>
         <h2><a href=press-republican-page.html class="pr_link">Press Republican: Website Redesign</a></h2>
@@ -56,9 +68,15 @@
 
 
 <!--Footer-->
-<div class="footer">
-<footer><p>Powered by HTML5</p></footer>
-</div>
+<footer>
+    <div class="footer">
+
+    <a href="https://www.facebook.com/allison.drake.98837"><img border="0" alt="facebook" src="images/facebook.png" width="40" height="40"></a>
+    <a href="https://www.linkedin.com/in/allison-drake-a71b151a3/"><img border="0" alt="linkedin" src="images/linkedin.png" width="40" height="40"></a>
+    <a href="mailto:amd564@drexel.edu"><img border="0" alt="email" src="images/email.png" width="40" height="40"></a>
+
+    </div>
+</footer>
 
 </body>
 </html>
