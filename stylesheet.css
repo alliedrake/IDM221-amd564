@@ -215,7 +215,7 @@ a:hover {
 
 
 .second-line {
-    font-size: 1rem;
+    font-size: 1.2rem;
     left: 50%;
     position: absolute;
     top: 62%;
@@ -373,7 +373,7 @@ a:hover {
 .pr_content h1 {
     font-size: 1.5rem;
     padding-bottom: 3rem;
-    padding-top: 5rem;
+    padding-top: 7rem;
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #BBDC4C;
@@ -420,7 +420,7 @@ a:hover {
 .philm_content h1 {
     font-size: 1.5rem;
     padding-bottom: 1rem;
-    padding-top: 4rem;
+    padding-top: 7rem;
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #BBDC4C;
