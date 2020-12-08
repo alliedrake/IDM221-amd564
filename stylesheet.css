@@ -44,23 +44,128 @@ p , li, .footer {
     font-family: 'Roboto-Light';
 }
 
-
-
 .logo {
-    float: left;
-    width: 27%;
+    float: right;
+    width: 26%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
   }
 
 
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 1.875rem;
+    left: 1.875rem;
+    
+    z-index: 1;
+    
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  #menuToggle a {
+    text-decoration: none;
+    color: #ededed;
+    
+    transition: color 0.3s ease;
+  }
+  
+  #menuToggle input {
+    display: block;
+    width: 2.5rem;
+    height: 2rem;
+    position: absolute;
+    top: -0.4375rem;
+    left: -0.3125rem;
+    
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 2; /* place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+  }
+  
+  /* hamburger */
 
-.navigation li {
-    display: inline-block;
-    font-family: 'PlayfairDisplay-Bold';
-    font-size: .8rem;
-    margin-top: 2.5rem;
-    margin-left: .6rem;
-    padding-left: .5rem;
-}
+  #menuToggle span {
+    display: block;
+    width: 2.0625rem;
+    height: 0.25rem;
+    margin-bottom: 0.3125rem;
+    position: relative;
+    
+    background: #2E332E;
+    border-radius: 0.1875rem;
+    
+    z-index: 1;
+    
+    transform-origin: 0.25rem 0rem;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+  
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+  
+  
+  #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-0.125rem, -0.0625rem);
+    background: #ededed;
+  }
+  
+
+  #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -0.0625rem);
+  }
+  
+  #menu {
+    position: absolute;
+    width: 25rem;
+    margin: -6.25rem 0 0 -3.125rem;
+    padding: 3.125rem;
+    padding-top: 7.8125rem;
+    
+    background: #232323;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  
+  #menu li {
+    padding: 0.625rem 0;
+    font-size: 1.375rem;
+  }
+
+  #menu li:hover {
+      color: #CBE86B;
+  }
+  
+  /* slide it in from the left */
+
+  #menuToggle input:checked ~ ul {
+    transform: none;
+  }
 
 
 a {
@@ -73,12 +178,20 @@ a:link, a:visited {
     color:darkgrey;
 }
 
+a:hover {
+    color: #CBE86B;
+}
+
+
 .footer {
-    background-color: black;
+    background-image:linear-gradient(white, #BBDC4C);
     color: white;
-    font-size: 1.1rem;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
+}
+
+.footer a {
+    padding-right: 0.5rem;
 }
 
 /* Home Page */
@@ -94,7 +207,7 @@ a:link, a:visited {
     font-size: 1.5rem;
     left: 50%;
     position: absolute;
-    top: 37%;
+    top: 45%;
     text-align: left;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -102,28 +215,27 @@ a:link, a:visited {
 
 
 .second-line {
-    font-size: .80rem;
+    font-size: 1rem;
     left: 50%;
     position: absolute;
-    top: 57%;
+    top: 62%;
     text-align: left;
     transform: translate(-50%, -50%);
     width: 80%;
 }
 
 
-.first_header, .second_header , .third_header {
-    font-size: 1.5rem;
+ .second_header , .third_header {
+    font-size: 1.2rem;
     text-align: left;
 }
 
 .first_point , .second_point , .third_point {
-    color: #343d46;
+    color: #2E332E;
     font-family: 'Roboto-Light';
-    font-size: 1rem;
-    line-height: 2rem;
-    margin: 1rem;
-    padding-left: 1.2rem;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    margin: 1.2rem;
     text-align: left;
 }
 
@@ -132,112 +244,46 @@ a:link, a:visited {
     text-align: center;
 }
 
-.header_social {
-    color:white;
-    padding-top: 2.5rem;
-    position: relative;
-    text-align: center;
-}
-
-
-.connect-with-me {
-    font-size: 1.5rem;
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 32%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-}
-
-.linked-in , .facebook, .discord {
-    font-family: 'Roboto-Medium';
-    padding-bottom: .3rem;
-}
-
-.linked-in {
-    font-size: 1.4rem;
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 46%;
-    transform: translate(-50%, -50%);
-}
-
-.facebook {
-    font-size: 1.4rem;
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 54%;
-    transform: translate(-50%, -50%);
-}
-
-.discord {
-    font-size: 1.4rem;
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 62%;
-    transform: translate(-50%, -50%);
-}
-
 
 /* About Page */
 
 
-.page_header2 {
-    color: white;
-    display: block;
-    position: relative;
-    text-align: center;
-}
-
-
 .about-intro {
-    font-size: 1.4rem;
-    left: 50%;
-    position: absolute;
+    font-size: 1.5rem;
+    padding-top: 1rem;
     text-align: center;
-    top: 35%;
-    transform: translate(-50%, -50%);
-    width: 100%;
 }
 
 .aboutmecircle {
-    left: 50%;
-    padding-bottom: 3rem;
-    position: absolute;
-    text-align: center;
-    top: 95%;
-    transform: translate(-50%, -50%); 
-    width: 50%; 
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
 }
 
 
 .paragraph_one {
-    color: #343d46;
-    font-size: .9rem;
-    line-height: 2rem;
-    margin: 1.5rem;
-    padding-top: 5rem;
+    color: #2E332E;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    margin: 1.2rem;
+    padding-top: 1rem;
 
 }
 
 .about_me {
-    box-shadow: 5px 5px 5px grey;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1rem;
 }
 
 .paragraph_two {
-    color: #343d46;
-    font-size: .9rem;
-    line-height: 2rem;
-    margin: 1.5rem;
-    padding-top: 2rem;
+    color: #2E332E;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    margin: 1.2rem;
+    padding-top: 1rem;
     
 }
 
@@ -245,11 +291,21 @@ a:link, a:visited {
 
 .resume {
     clear: both;
-    color: #343d46;
+    color: #2E332E;
     font-size: .9rem;
-    line-height: 1.5rem;
-    margin: 1.4rem;
-    padding-top: 1.5rem;
+    line-height: 1.4rem;
+    margin: 1.2rem;
+    padding-top: 1rem;
+}
+
+.resume h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.resume h3 {
+    text-decoration: underline;
+    text-decoration-color: #BBDC4C;
 }
 
 
@@ -258,16 +314,11 @@ a:link, a:visited {
 
 .page_header4 {
     clear: both;
-    margin-top: 1.2rem;
-    background-color: black;
-    color:white;
+    color: #2E332E;
     text-align: center;
     height: 7rem;
 }
 
-.work_intro {
-    padding-top: 1.5rem;
-}
 
 .work_content h2 {
     font-size: 1.5rem;
@@ -276,6 +327,7 @@ a:link, a:visited {
     
 
 .philmmockupp1 , .pressrepublicanmockup1 {
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -302,7 +354,7 @@ a:link, a:visited {
 .pr_intro {
     clear: both;
     background-image:linear-gradient(black, white);
-    height: 20rem;
+    height: 15rem;
     padding-bottom: 2rem;
 }
 
@@ -313,30 +365,32 @@ a:link, a:visited {
     margin-left: auto;
     margin-right: auto;
     padding-top: 6.5rem;
-    max-width:80%;
+    max-width:70%;
 }
 
 
 
 .pr_content h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #BBDC4C;
 }
 
 .pr_content img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .pr_content p {
     font-size: .95rem;
-    line-height: 2rem;
-    margin-left: 3rem;
-    margin-right: 2.5rem;
+    line-height: 1.8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.2rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
@@ -348,7 +402,7 @@ a:link, a:visited {
 .philm_intro {
     background-image:linear-gradient(black, white);
     clear:both;
-    height: 20rem;
+    height: 15rem;
     position: sticky;
     padding-bottom: 5rem;
 }
@@ -364,24 +418,26 @@ a:link, a:visited {
 
 
 .philm_content h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
     padding-top: 4rem;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #BBDC4C;
 }
 
 .philm_content img  {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 70%;
 }
 
 .philm_content p {
     font-size: .9rem;
-    line-height: 2rem;
-    margin-left: 3.5rem;
-    margin-right: 3.2rem;
+    line-height: 1.8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
