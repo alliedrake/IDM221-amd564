@@ -203,23 +203,23 @@ a:hover {
 }
 
 
-.first-line {
+.first-line  {
     font-size: 1.5rem;
     left: 50%;
     position: absolute;
-    top: 45%;
     text-align: left;
+    top: 45%;
     transform: translate(-50%, -50%);
     width: 80%;
 }
 
 
 .second-line {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     left: 50%;
     position: absolute;
-    top: 62%;
     text-align: left;
+    top: 62%;
     transform: translate(-50%, -50%);
     width: 80%;
 }
@@ -315,16 +315,17 @@ a:hover {
 .page_header4 {
     clear: both;
     color: #2E332E;
-    text-align: center;
     height: 7rem;
+    text-align: center;
 }
 
 
 .work_content h2 {
     font-size: 1.5rem;
     text-align: center;
+    color: #232323;
 }
-    
+
 
 .philmmockupp1 , .pressrepublicanmockup1 {
 
@@ -342,9 +343,11 @@ a:hover {
 .philmcaption , .prcaption {
     font-size: .9rem;
     line-height: 2rem;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-left: 0.7rem;
     padding-top: 0.2rem;
+
 }
 
 
@@ -383,16 +386,17 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80%;
+    max-width: 85%;
 }
 
 .pr_content p {
-    font-size: .95rem;
+    font-size: .9rem;
     line-height: 1.8rem;
     margin-left: 1.5rem;
-    margin-right: 1.2rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    margin-right: 1.5rem;
+    padding-left: .07rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -430,14 +434,15 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 85%;
 }
 
 .philm_content p {
     font-size: .9rem;
     line-height: 1.8rem;
     margin-left: 1.5rem;
-    margin-right: 1.2rem;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+    margin-right: 1.5rem;
+    padding-left: 0.3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
